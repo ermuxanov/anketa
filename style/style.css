@@ -259,6 +259,7 @@ body {
   gap: 30px;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .calculator__inner-range-top div:first-child {
   display: flex;
@@ -317,10 +318,20 @@ body {
   height: 35px;
   text-align: center;
   outline: none;
-  border: 1px solid #451f18;
+  border: none;
   background: transparent;
   font-size: 16px;
   font-weight: 500;
+}
+.calculator__inner-range-top-number-label::before {
+  height: 41px;
+  width: 86px;
+  top: 25%;
+  content: "";
+  right: 2%;
+  position: absolute;
+  cursor: pointer;
+  background: url("../images/box-line.png ");
 }
 .calculator__inner-range-top-number::-webkit-outer-spin-button,
 .calculator__inner-range-top-number::-webkit-inner-spin-button {
