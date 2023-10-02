@@ -330,8 +330,14 @@ body {
   content: "";
   right: 2%;
   position: absolute;
-  cursor: pointer;
   background: url("../images/box-line.png ");
+}
+.calculator__inner-range-top-number-label::after {
+  top: 34%;
+  right: 33px;
+  font-size: 19px;
+  content: "м";
+  position: absolute;
 }
 .calculator__inner-range-top-number::-webkit-outer-spin-button,
 .calculator__inner-range-top-number::-webkit-inner-spin-button {
@@ -582,17 +588,4 @@ body {
   z-index: -2;
   bottom: 201px;
   right: 177px;
-}
-.ellipse__five {
-  width: 1592px;
-  height: 1681px;
-  top: 1891px;
-  left: 470px;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #eadfdf 0%,
-    rgba(236, 226, 223, 0) 100%
-  );
-  position: absolute;
-  z-index: -2;
 }
