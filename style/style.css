@@ -113,7 +113,6 @@ body {
   width: 100%;
   position: relative;
   padding-left: 34px;
-  user-select: none;
 }
 .about__list-item-span {
   position: relative;
@@ -121,6 +120,9 @@ body {
 .about__list-item .checkbox {
   position: relative;
   appearance: none;
+}
+.about__list-item label {
+  cursor: pointer;
 }
 .about__list-item label::before {
   content: "";
