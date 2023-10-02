@@ -579,7 +579,7 @@ body {
 .ellipse__four {
   width: 1592px;
   height: 1681px;
-  background: radial-gradient(
+  background-image: radial-gradient(
     50% 50% at 50% 50%,
     #ece2df 0%,
     rgba(234, 223, 223, 0) 100%
@@ -614,6 +614,12 @@ body {
   .about__list-item {
     max-width: 100%;
   }
+  .ellipse__one,
+  .ellipse__two,
+  .ellipse__three,
+  .ellipse__four {
+    display: none;
+  }
 }
 @media (max-width: 920px) {
   .plan__checkbox {
@@ -630,12 +636,6 @@ body {
   }
   .header {
     margin-top: 50px;
-  }
-  .ellipse__one,
-  .ellipse__two,
-  .ellipse__three,
-  .ellipse__four {
-    display: none;
   }
 }
 @media (max-width: 790px) {
