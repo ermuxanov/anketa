@@ -589,3 +589,274 @@ body {
   bottom: 201px;
   right: 177px;
 }
+@media (max-width: 1400px) {
+  .calculator__inner {
+    display: grid;
+    grid-template-areas:
+      "A A "
+      "B C";
+  }
+  .calculator__inner-range {
+    grid-area: A;
+  }
+  .calculator__inner-repair {
+    grid-area: B;
+    margin-left: 0;
+  }
+  .calculator__inner-rate {
+    grid-area: C;
+  }
+}
+@media (max-width: 1278px) {
+  .about__list {
+    height: 100%;
+  }
+  .about__list-item {
+    max-width: 100%;
+  }
+}
+@media (max-width: 920px) {
+  .plan__checkbox {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .time span,
+  .date span {
+    font-size: 24px;
+  }
+  .header,
+  .main {
+    padding: 60px 50px;
+  }
+  .header {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 790px) {
+  .time span,
+  .date span {
+    font-size: 20px;
+  }
+  .time,
+  .date {
+    font-size: 16px;
+  }
+}
+@media (max-width: 650px) {
+  .form__list-item h4 {
+    font-size: 18px;
+  }
+  .form__list-item-span {
+    font-size: 24px;
+  }
+  .task__texts {
+    margin: 30px 0;
+  }
+  .task__texts-text:nth-child(1)::before {
+    left: 40px;
+  }
+  .task__texts-text:nth-child(2)::before {
+    left: 60px;
+  }
+  .task__texts-text:nth-child(3)::before {
+    left: 80px;
+  }
+  .task__texts-text:nth-child(4)::before {
+    left: 100px;
+  }
+  .task__faces {
+    margin: 0;
+  }
+  .header,
+  .main {
+    padding: 40px 30px;
+  }
+  .time span {
+    display: inline-block;
+    margin-left: 0;
+  }
+}
+@media (max-width: 580px) {
+  .calculator__inner-range-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .calculator__inner-range-top-number-label::before {
+    top: 60%;
+    left: 0;
+    right: 0;
+  }
+  .calculator__inner-range-top-number-label::after {
+    top: 113px;
+    left: 48px;
+  }
+}
+@media (max-width: 425px) {
+  .form__list {
+    gap: 10px;
+  }
+  .form__list-item h4 {
+    font-size: 16px;
+  }
+  .form__list-item-span {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .about__list-item {
+    font-size: 16px;
+  }
+  .task__texts-text:nth-child(2)::before {
+    left: 45px;
+  }
+  .task__texts-text:nth-child(3)::before {
+    left: 50px;
+  }
+  .task__texts-text:nth-child(4)::before {
+    left: 40px;
+  }
+  .calculator__inner-range-top div:first-child {
+    max-width: 300px;
+  }
+  .calculator__inner-range-top-square {
+    gap: 7px;
+  }
+  .calculator__inner-range-price {
+    margin-top: 20px;
+  }
+  .calculator__inner-range-price-span {
+    font-size: 22px;
+    margin-left: 0;
+    width: 164px;
+    height: 25px;
+  }
+
+  .calculator__inner {
+    gap: 20px 10px;
+  }
+  .calculator__inner-repair-list-types label,
+  .calculator__inner-rate-list-types label {
+    padding-left: 24px;
+    font-size: 16px;
+  }
+  .intern__desc-item {
+    font-size: 24px;
+  }
+  .time,
+  .date {
+    margin-top: 30px;
+  }
+  .date {
+    margin-bottom: 50px;
+  }
+  .about,
+  .plan,
+  .task,
+  .calculator,
+  .intern {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .main {
+    padding: 15px;
+  }
+  .form__list-item h4 {
+    font-size: 12px;
+  }
+  .form__list-item-span {
+    font-size: 14px;
+  }
+  .about__title {
+    font-size: 16px;
+  }
+  .about__text {
+    font-size: 14px;
+  }
+  .checkbox:checked + label::before {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    top: 0px;
+  }
+
+  .checkbox + label::before {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    top: 2px;
+  }
+  .about__list-item {
+    padding-left: 16px;
+    font-size: 14px;
+  }
+  .task__title {
+    font-size: 16px;
+  }
+  .task__text {
+    font-size: 14px;
+  }
+  .task__texts-text:nth-child(1)::before {
+    left: 30px;
+  }
+  .task__texts-text:nth-child(2)::before {
+    left: 50px;
+  }
+  .task__texts-text:nth-child(3)::before {
+    left: 40px;
+  }
+  .task__texts-text:nth-child(4)::before {
+    left: 17px;
+  }
+  .calculator__title {
+    font-size: 16px;
+  }
+  .calculator__inner-range-top-square-number {
+    font-size: 13px;
+  }
+  .calculator__inner-range-top-number-label::after {
+    top: 110px;
+  }
+  .calculator__inner-repair-title,
+  .calculator__inner-rate-title,
+  .calculator__inner-repair-list-types label,
+  .calculator__inner-rate-list-types label {
+    font-size: 12px;
+  }
+  .calculator__inner-repair-list-types label::before,
+  .calculator__inner-rate-list-types label::before {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    top: 2px;
+  }
+  .calculator__inner-repair-list-types-input:checked + label::before,
+  .calculator__inner-rate-list-types-input:checked + label::before {
+    top: 2px;
+  }
+  .calculator__inner-repair-list,
+  .calculator__inner-rate-list {
+    gap: 5px;
+  }
+  .plan__checkbox-item label::before {
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .plan__checkbox-item label {
+    font-size: 16px;
+  }
+  .plan__checkbox-item-input:checked + label::before,
+  .plan__checkbox-item label::before {
+    top: 8px;
+  }
+  .plan__checkbox-item {
+    padding-left: 20px;
+  }
+  .time,
+  .date {
+    font-size: 14px;
+  }
+  .time span,
+  .date span {
+    font-size: 14px;
+  }
+  .date span{
+    margin-left: 0;
+  }
+}
