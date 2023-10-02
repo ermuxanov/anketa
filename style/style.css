@@ -631,6 +631,12 @@ body {
   .header {
     margin-top: 50px;
   }
+  .ellipse__one,
+  .ellipse__two,
+  .ellipse__three,
+  .ellipse__four {
+    display: none;
+  }
 }
 @media (max-width: 790px) {
   .time span,
@@ -856,7 +862,7 @@ body {
   .date span {
     font-size: 14px;
   }
-  .date span{
+  .date span {
     margin-left: 0;
   }
 }
